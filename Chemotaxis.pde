@@ -44,7 +44,7 @@ Bacteria[] colony;
  		}
  		else
  		{
- 			ex = 7;	
+ 			ex = 15;	
  		}
  		if(mouseY > myY)
  		{
@@ -52,9 +52,9 @@ Bacteria[] colony;
  		}
  		else 
  		{
- 			ay = 7;	
+ 			ay = 15;	
  		}
- 		myX = myX +((int)(Math.random()*7)-ex);
- 		myY = myY + ((int)(Math.random()*7)-ay);
+ 		myX = myX +((int)(Math.random()*15)-ex);
+ 		myY = myY + ((int)(Math.random()*15)-ay);
  	}
  }    
