@@ -7,7 +7,6 @@ Bacteria[] colony;
  	for (int i = 0; i < colony.length; i++) 
  	{
  		colony[i] = new Bacteria();
- 		colony[i].show();
  	}  
  }   
  void draw()   
@@ -58,3 +57,14 @@ Bacteria[] colony;
  		myY = myY + ((int)(Math.random()*15)-ay);
  	}
  }    
+/*restart when clicked
+void mousePressed()
+{
+ background(200,200,255);
+ 	  for (int i=0; i<colony.length; i++) 
+ 	{
+ 		colony[i].show();
+ 		colony[i].move();
+ 	}
+}
+*/
