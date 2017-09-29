@@ -60,5 +60,6 @@ Bacteria[] colony;
 
 void mousePressed()
 {
-	draw();
+	myX=(int)Math.random()*801;
+ 	myY=(int)Math.random()*801;
 }
